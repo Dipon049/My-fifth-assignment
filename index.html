@@ -17,16 +17,16 @@
             
             <section class="right div flex gap-3">
                     
-                <div class=" w-[80px] h-[40px] bg-[#F5FFF6] border-0 rounded-full p-2 flex justify-center items-center gap-2">
-                      <p>0</p>
+                <div  class=" w-[80px] h-[40px] bg-[#F5FFF6] border-0 rounded-full p-2 flex justify-center items-center gap-2">
+                      <p id="heart_count">0</p>
                       <img src="assets/heart.png" alt="" class="w-[20px] h-[20px]">
                 </div>
-                <div class=" w-[80px] h-[40px] bg-[#F5FFF6] border-0 rounded-full p-2 flex justify-center items-center gap-2">
-                      <p>100</p>
+                <div  class=" w-[80px] h-[40px] bg-[#F5FFF6] border-0 rounded-full p-2 flex justify-center items-center gap-2">
+                      <p id="coin_count">100</p>
                       <img src="assets/coin.png" alt="" class="w-[20px] h-[20px]">
                 </div>
-                <div class=" w-[80px] h-[40px] bg-[#00A63E] border-0 rounded-full p-2 flex justify-center items-center gap-2">
-                      <p class="text-white">2</p>
+                <div id="copy_count" class=" w-[80px] h-[40px] bg-[#00A63E] border-0 rounded-full p-2 flex justify-center items-center gap-2">
+                      <p class="text-white">0</p>
                       <p class="text-white">copy </p>
                 </div>
 
@@ -45,22 +45,22 @@
 
         <section class="bg-[#F5FFF6] md:grid grid-cols-4 grid-rows-3  m-5 gap-4">
 
-            <section class="card01 ">
+            <section id="cardOne">
 
-            <div class="w-auto h-auto p-6 bg-white ">
+            <div class="w-auto h-auto p-6 bg-white shadow-xl rounded-lg">
                 <div class="flex justify-between items-center">
                     <img class="bg-[#FFE3E2] w-[50px] h-[50px] rounded-lg p-3 mb-3" src="assets/emergency.png" alt="">
-                    <img class="w-[50px] h-[50px]" src="assets/love.png" alt="">
+                    <img id="love_click" class="w-[50px] h-[50px]" src="assets/love.png" alt="">
                 </div>
                 <p class="font-bold text-xl">National Emergency Number</p>
                 <p>National Emergency</p>
                 <p class="font-bold mt-2 text-2xl">999</p>
-                <p class="bg-[#F5FFF6] rounded-lg w-auto p-1 ">All</p><br>
+                <p class="bg-[#F5FFF6] rounded-lg w-[50px] p-1 ">All</p><br>
                
 
                 <div class="">
-                    <button class="btn w-[140px] rounded-lg"> <img class="w-[20px] h-[20px]" src="assets/2953569-200.png" alt=""></i> Copy</button> 
-                    <button class="btn w-[140px] rounded-lg bg-[#00A63E] text-white"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt=""> Call</button>
+                    <button id="copy_click" class="btn w-[140px] rounded-lg"> <img class="w-[20px] h-[20px]" src="assets/2953569-200.png" alt=""></i> Copy</button> 
+                    <button id="call_click" class="btn w-[140px] rounded-lg bg-[#00A63E] text-white hover:bg-green-900"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt=""> Call</button>
                     
                 </div>
 
@@ -69,20 +69,20 @@
             </section>
             <section class="card02 ">
 
-            <div class="w-auto h-auto border-2 border-red-500 p-6 bg-white ">
+            <div class="w-auto h-auto shadow-xl rounded-lg p-6 bg-white ">
                 <div class="flex justify-between items-center">
                     <img class="bg-[#FFE3E2] w-[50px] h-[50px] rounded-lg p-3 mb-3" src="assets/police.png" alt="">
-                     <img class="w-[50px] h-[50px]" src="assets/love.png" alt="">
+                     <img id="love_click" class="w-[50px] h-[50px]" src="assets/love.png" alt="">
                 </div>
                 <p class="font-bold text-xl">Police Helpline Number</p>
                 <p>Police</p>
                 <p class="font-bold mt-2 text-2xl">999</p>
-                <p class="bg-[#F5FFF6] rounded-lg w-[40px] p-1 ">Police</p><br>
+                <p class="bg-[#F5FFF6] rounded-lg w-[50px] p-1 ">Police</p><br>
                
 
                   <div class="">
                     <button class="btn w-[140px] rounded-lg"> <img class="w-[20px] h-[20px]" src="assets/2953569-200.png" alt=""></i> Copy</button> 
-                    <button class="btn w-[140px] rounded-lg bg-[#00A63E] text-white"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt=""> Call</button>
+                    <button class="btn w-[140px] rounded-lg bg-[#00A63E] text-white hover:bg-green-900"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt="" > Call</button>
                     
                 </div>
 
@@ -90,10 +90,10 @@
             </section>
             <section class="card03 ">
 
-            <div class="w-auto h-auto border-2 border-red-500 p-6 bg-white ">
+            <div class="w-auto h-auto shadow-xl rounded-lg p-6 bg-white ">
                 <div class="flex justify-between items-center">
                     <img class="bg-[#FFE3E2] w-[50px] h-[50px] rounded-lg p-3 mb-3" src="assets/fire-service.png" alt="">
-                     <img class="w-[50px] h-[50px]" src="assets/love.png" alt="">
+                     <img id="love_click" class="w-[50px] h-[50px]" src="assets/love.png" alt="">
                 </div>
                 <p class="font-bold text-xl">Fire Service Number</p>
                 <p>Fire Service</p>
@@ -104,7 +104,7 @@
                 <div class="">
                   
                       <button class="btn w-[140px] rounded-lg"> <img class="w-[20px] h-[20px]" src="assets/2953569-200.png" alt=""></i> Copy</button> 
-                    <button class="btn w-[140px] rounded-lg bg-[#00A63E] text-white"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt=""> Call</button>
+                    <button class="btn w-[140px] rounded-lg bg-[#00A63E] text-white hover:bg-green-900"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt=""> Call</button>
                 </div>
 
             </div>
@@ -119,14 +119,14 @@
                 <p>Call history</p>
                 </div>
                 
-                <button class="btn btn-active bg-green-600 rounded-full p-6 text-white">Clear</button>
+                <button class="btn btn-active bg-green-600 rounded-full p-6 text-white hover:bg-green-900">Clear</button>
             </section>
                 
             </aside>
 
                  <section class="card04 ">
 
-            <div class="w-auto h-auto border-2 border-red-500 p-6 bg-white ">
+            <div class="w-auto h-auto shadow-xl rounded-lg p-6 bg-white ">
                 <div class="flex justify-between items-center">
                     <img class="bg-[#FFE3E2] w-[50px] h-[50px] rounded-lg p-3 mb-3" src="assets/ambulance.png" alt="">
                      <img class="w-[50px] h-[50px]" src="assets/love.png" alt="">
@@ -140,7 +140,7 @@
                 <div class="">
                   
                       <button class="btn w-[140px] rounded-lg"> <img class="w-[20px] h-[20px]" src="assets/2953569-200.png" alt=""></i> Copy</button> 
-                    <button class="btn w-[140px] rounded-lg bg-[#00A63E] text-white"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt=""> Call</button>
+                    <button class="btn w-[140px] rounded-lg bg-[#00A63E] text-white hover:bg-green-900"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt=""> Call</button>
                 </div>
 
             </div>
@@ -148,7 +148,7 @@
 
               <section class="card05 ">
 
-            <div class="w-auto h-auto border-2 border-red-500 p-6 bg-white ">
+            <div class="w-auto h-auto shadow-xl rounded-lg p-6 bg-white ">
                 <div class="flex justify-between items-center">
                     <img class="bg-[#FFE3E2] w-[50px] h-[50px] rounded-lg p-3 mb-3" src="assets/emergency.png" alt="">
                      <img class="w-[50px] h-[50px]" src="assets/love.png" alt="">
@@ -162,7 +162,7 @@
                 <div class="">
                   
                       <button class="btn w-[140px] rounded-lg"> <img class="w-[20px] h-[20px]" src="assets/2953569-200.png" alt=""></i> Copy</button> 
-                    <button class="btn w-[140px] rounded-lg bg-[#00A63E] text-white"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt=""> Call</button>
+                    <button class="btn w-[140px] rounded-lg bg-[#00A63E] text-white hover:bg-green-900"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt=""> Call</button>
                 </div>
 
             </div>
@@ -170,7 +170,7 @@
 
               <section class="card06 ">
 
-            <div class="w-auto h-auto border-2 border-red-500 p-6 bg-white ">
+            <div class="w-auto h-auto shadow-xl rounded-lg p-6 bg-white ">
                 <div class="flex justify-between items-center">
                     <img class="bg-[#FFE3E2] w-[50px] h-[50px] rounded-lg p-3 mb-3" src="assets/emergency.png" alt="">
                      <img class="w-[50px] h-[50px]" src="assets/love.png" alt="">
@@ -184,7 +184,7 @@
                 <div class="">
                   
                       <button class="btn w-[140px] rounded-lg"> <img class="w-[20px] h-[20px]" src="assets/2953569-200.png" alt=""></i> Copy</button> 
-                    <button class="btn w-[140px] rounded-lg bg-[#00A63E] text-white"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt=""> Call</button>
+                    <button class="btn w-[140px] rounded-lg bg-[#00A63E] text-white hover:bg-green-900"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt=""> Call</button>
                 </div>
 
             </div>
@@ -192,7 +192,7 @@
 
              <section class="card07 ">
 
-            <div class="w-auto h-auto border-2 border-red-500 p-6 bg-white ">
+            <div class="w-auto h-auto shadow-xl rounded-lg p-6 bg-white ">
                 <div class="flex justify-between items-center">
                     <img class="bg-[#FFE3E2] w-[50px] h-[50px] rounded-lg p-3 mb-3" src="assets/emergency.png" alt="">
                      <img class="w-[50px] h-[50px]" src="assets/love.png" alt="">
@@ -206,14 +206,14 @@
                 <div class="">
                   
                       <button class="btn w-[140px] rounded-lg"> <img class="w-[20px] h-[20px]" src="assets/2953569-200.png" alt=""></i> Copy</button> 
-                    <button class="btn w-[140px] rounded-lg bg-[#00A63E] text-white"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt=""> Call</button>
+                    <button class="btn w-[140px] rounded-lg bg-[#00A63E] text-white hover:bg-green-900"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt=""> Call</button>
                 </div>
 
             </div>
             </section>
              <section class="card08 ">
 
-            <div class="w-auto h-auto border-2 border-red-500 p-6 bg-white ">
+            <div class="w-auto h-auto shadow-xl rounded-lg p-6 bg-white ">
                 <div class="flex justify-between items-center">
                     <img class="bg-[#FFE3E2] w-[50px] h-[50px] rounded-lg p-3 mb-3" src="assets/brac.png" alt="">
                      <img class="w-[50px] h-[50px]" src="assets/love.png" alt="">
@@ -227,14 +227,14 @@
                 <div class="">
                   
                       <button class="btn w-[140px] rounded-lg"> <img class="w-[20px] h-[20px]" src="assets/2953569-200.png" alt=""></i> Copy</button> 
-                    <button class="btn w-[140px] rounded-lg bg-[#00A63E] text-white"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt=""> Call</button>
+                    <button class="btn w-[140px] rounded-lg bg-[#00A63E] text-white hover:bg-green-900"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt=""> Call</button>
                 </div>
 
             </div>
             </section>
              <section class="card09 ">
 
-            <div class="w-auto h-auto border-2 border-red-500 p-6 bg-white ">
+            <div class="w-auto h-auto shadow-xl rounded-lg p-6 bg-white ">
                 <div class="flex justify-between items-center">
                     <img class="bg-[#FFE3E2] w-[50px] h-[50px] rounded-lg p-3 mb-3" src="assets/Bangladesh-Railway.png" alt="">
                      <img class="w-[50px] h-[50px]" src="assets/love.png" alt="">
@@ -248,19 +248,18 @@
                 <div class="">
                   
                       <button class="btn w-[140px] rounded-lg"> <img class="w-[20px] h-[20px]" src="assets/2953569-200.png" alt=""></i> Copy</button> 
-                    <button class="btn w-[140px] rounded-lg bg-[#00A63E] text-white"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt=""> Call</button>
+                    <button class="btn w-[140px] rounded-lg bg-[#00A63E] text-white hover:bg-green-900"> <img class="w-[20px] h-[20px] "  src="assets/call.png" alt=""> Call</button>
                 </div>
 
             </div>
             </section>
 
-            
-
-
-
         </section>
       
 
     </main>
+    <script src="script.js">
+
+    </script>
 </body>
 </html>
